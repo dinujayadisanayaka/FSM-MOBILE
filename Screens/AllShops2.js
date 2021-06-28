@@ -2,12 +2,11 @@
 
 import React, { Component } from 'react';
 
-import { ActivityIndicator, Alert, FlatList, Text, StyleSheet, View, TextInput, TouchableOpacity, TouchableHighlight, Button, SafeAreaView, ScrollView } from 'react-native';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import Icon from 'react-native-vector-icons/Ionicons';
+import { ActivityIndicator, Alert, FlatList, Text, StyleSheet, View, TextInput, TouchableOpacity, TouchableHighlight } from 'react-native';
+
 import {Users,UserContext} from '../Context/context';
 import {cart, CartContext} from '../Context/context';
-import MaterialIconsIcon from "react-native-vector-icons/MaterialIcons";
+
 
 
 
