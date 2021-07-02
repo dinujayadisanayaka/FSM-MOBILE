@@ -28,7 +28,7 @@ export default class AllShops extends Component {
 
     componentDidMount() {
 
-        return fetch('http://104.236.38.247:8000/api/viewshops/'+this.context.loginuserid)
+        return fetch('http://IP_ADDRESS/api/viewshops/'+this.context.loginuserid)
             .then((response) => response.json())
             .then((responseJson) => {
                 console.log('routeid-->'+this.context.currouteid+'RouteName->>'+this.context.curRouteName);
