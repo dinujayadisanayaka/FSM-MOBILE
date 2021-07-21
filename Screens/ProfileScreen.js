@@ -1,26 +1,14 @@
 import React, { Component } from 'react';
-
-import { StackNavigator } from 'react-navigation';
 import {
   StyleSheet,
   View,
-  TextInput,
-  Button,
-  RadioButtonGroup,
-  RadioButton,
+
   TouchableOpacity,
   SafeAreaView, ScrollView,
   Text, TouchableHighlight,
 } from "react-native";
 import {
-  useTheme,
   Avatar,
-  Title,
-  Caption,
-  Paragraph,
-  Drawer,
-  TouchableRipple,
-  Switch
 } from 'react-native-paper';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import axios from "axios";
